@@ -1,0 +1,10 @@
+<mockup version="1.0" skin="sketch" measuredW="1255" measuredH="575" mockupW="1000" mockupH="520">
+  <controls>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="245" y="45" w="1000" h="520" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1"/>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="260" y="127" w="970" h="401" measuredW="200" measuredH="186" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20tracking%0AProjects%0AClients%0ATeam</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,112 @@
+<mockup version="1.0" skin="sketch" measuredW="1255" measuredH="575" mockupW="1000" mockupH="520">
+  <controls>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="245" y="45" w="1000" h="520" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="260" y="127" w="970" h="401" measuredW="200" measuredH="186" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <hrefs>time_tracking_empty%26bm%3Btime_tracking_empty.bmml%26bm%3Btime_tracking_empty.bmml%26bm%3Btime_tracking_empty.bmml%2Cprojects_empty%26bm%3Bprojects_empty.bmml%26bm%3Bprojects_empty.bmml%26bm%3Bprojects_empty.bmml%2Cteam_empty%26bm%3Bteam_empty.bmml%26bm%3Bteam_empty.bmml%26bm%3Bteam_empty.bmml%2Cuser%26bm%3Buser.bmml%26bm%3Buser.bmml%26bm%3Buser.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C102%2C107%2C133%22%20href%3D%22time_tracking_empty.bmml%22%20alt%3D%22time_tracking_empty%22%20id%3D%2211_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C133%2C107%2C164%22%20href%3D%22projects_empty.bmml%22%20alt%3D%22projects_empty%22%20id%3D%2211_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C164%2C107%2C195%22%20href%3D%22team_empty.bmml%22%20alt%3D%22team_empty%22%20id%3D%2211_2%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C195%2C107%2C226%22%20href%3D%22user.bmml%22%20alt%3D%22user%22%20id%3D%2211_3%22/%3E%0A</map>
+        <selectedIndex>3</selectedIndex>
+        <text>Time%20tracking%0AProjects%0ATeam%0ASettings</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Title" x="621" y="142" w="-1" h="-1" measuredW="247" measuredH="56" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Your%20account</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Canvas" x="392" y="213" w="241" h="288" measuredW="100" measuredH="70" zOrder="3" locked="true" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::SubTitle" x="473" y="226" w="-1" h="-1" measuredW="77" measuredH="37" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Profile</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="407" y="453" w="51" h="23" measuredW="43" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Avatar</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="500" y="450" w="121" h="28" measuredW="76" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search...</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Canvas" x="648" y="213" w="532" h="288" measuredW="100" measuredH="70" zOrder="7" locked="true" isInGroup="-1"/>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::SubTitle" x="865" y="227" w="-1" h="-1" measuredW="98" measuredH="37" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Label" x="667" y="310" w="78" h="32" measuredW="66" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20zone</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::ComboBox" x="760" y="310" w="118" h="-1" measuredW="145" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28GMT+01%3A00%29%20Paris</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="667" y="362" w="87" h="32" measuredW="79" measuredH="23" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Date%20format</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::ComboBox" x="760" y="362" w="118" h="-1" measuredW="116" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DD/MM/YYYY</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="667" y="406" w="87" h="32" measuredW="79" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Time%20format</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::ComboBox" x="760" y="406" w="118" h="-1" measuredW="86" measuredH="23" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>24%20hours</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextInput" x="500" y="332" w="116" h="-1" measuredW="79" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="407" y="335" w="-1" h="-1" measuredW="92" measuredH="23" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>New%20password</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextInput" x="500" y="368" w="116" h="-1" measuredW="79" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="407" y="385" w="-1" h="-1" measuredW="82" measuredH="23" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Confirmation</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="400" y="367" w="99" h="23" measuredW="92" measuredH="23" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>New%20password</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::TextInput" x="500" y="298" w="116" h="-1" measuredW="79" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="407" y="301" w="-1" h="-1" measuredW="88" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Old%20password</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Button" x="268" y="500" w="-1" h="-1" measuredW="69" measuredH="28" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>connexion%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2223%2C455%2C92%2C483%22%20href%3D%22connexion.bmml%22%20alt%3D%22connexion%22%20id%3D%2244%22/%3E</map>
+        <text>Log%20out</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

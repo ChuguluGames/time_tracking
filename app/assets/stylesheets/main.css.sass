@@ -1,0 +1,128 @@
+*
+  margin: 0
+  padding: 0
+
+html, body
+  height: 100%
+  background-image: url("bg.jpg")
+  background-repeat: repeat-x
+
+#menu
+  margin-bottom: 25px
+
+#main
+  overflow: auto
+  padding-bottom: 120px
+  /* must be same height as the footer
+  font-family: "Trebuchet MS"
+  font-size: 0.8em
+
+#header
+  width: 750px
+  margin: 0 auto
+  height: 78px
+  background-repeat: no-repeat
+  margin-bottom: 40px
+
+#content
+  width: 950px
+  margin: 0 auto
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
+  padding: 0
+  background-color: #f6fcfc
+  color: rgba(0, 0, 0, 0.5)
+  background: #f7f7f7
+  background: -moz-linear-gradient(90deg, #DEDEDE, white)
+  /* Firefox
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#DEDEDE))
+  /* Webkit
+  border: 1px solid #aaa
+  -moz-box-shadow: 0 0 15px #aaa
+  -webkit-box-shadow: 0 0 15px #aaa
+  position: relative
+  margin-bottom: 10px
+
+#tablist
+  position: absolute
+  margin-bottom: 10px
+  top: 200px
+  left: 50px
+  a
+    display: block
+    width: 100px
+    padding: 5px
+    text-align: center
+    margin-bottom: 7px
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    background-color: #f6fcfc
+    background: #f7f7f7
+    background: -moz-linear-gradient(90deg, #DEDEDE, white)
+    /* Firefox
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#DEDEDE))
+    /* Webkit
+    border: 1px solid #aaa
+
+#search #left
+  margin-bottom: 0px
+  margin-top: 0px
+  width: 470px
+
+#search #right
+  margin-bottom: 0px
+  margin-top: 15px
+  width: 400px
+
+.clear
+  clear: both
+
+#footer
+  position: relative
+  margin-top: -120px
+  /* negative value of footer height
+  height: 120px
+  clear: both
+  background-image: url("footer.jpg")
+  background-repeat: repeat-x
+
+#footer_content
+  width: 800px
+  margin: 0 auto
+  text-align: center
+  color: #fff
+  padding-top: 70px
+  font-family: "Trebuchet MS"
+  font-size: 0.8em
+  opacity: 0.7
+  line-height: 11px
+  a
+    color: #FFF
+    text-decoration: none
+    border-bottom: 1px dotted #FFF
+    &:hover
+      border-bottom: 1px dashed #FFF
+
+
+/*Opera Fix
+
+body:before
+  /* thanks to Maleika (Kohoutec)
+  content: ""
+  height: 100%
+  float: left
+  width: 0
+  margin-top: -32767px
+  /* thank you Erik J - negate effect of float
+
+/* IMPORTANT
+ *
+ *You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+ *
+ *<!--[if !IE 7]>
+ *	<style type="text/css">
+ *		#wrap {display:table;height:100%}
+ *	</style>
+ *<![endif]-->

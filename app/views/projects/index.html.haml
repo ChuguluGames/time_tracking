@@ -1,0 +1,26 @@
+#projects
+  %h1= 'Projects'
+  - @projects = [{title: 'Spot', client: 'Playboy', type: 'Web/Mobile', phase: 'post-prod'}, {title: 'MPPA', client: 'Auchan', type: 'Web', phase: 'prod'}]
+  - @projects *= 10
+
+  - if @projects and !@projects.empty?
+    %table
+      %tr
+        %th= 'Project title'
+        %th= 'Client'
+        %th= 'Type'
+        %th= 'Phase'
+        %th= 'Actions'
+      - @projects.each_with_index do |project, i|
+        %tr{class: (i%2 == 0 ? 'light' : 'dark')}
+          %td.title= project[:title]
+          %td.client= project[:client]
+          %td.type= project[:type]
+          %td.phase= project[:phase]
+          %td.actions
+            = link_to famfam(:drive_disk, title: 'Export to csv'), '#'
+            = link_to famfam(:delete, title: 'Delete'), '#'
+  - else
+    %h3
+      You don't have any project. Please
+      = link_to 'create one.', '#'

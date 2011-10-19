@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title= content_for?(:title) ? yield(:title) : 'Time tracking'
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = yield(:head)
+  %body
+    #main
+      #header
+        = link_to image_tag('header.jpg'), root_path, style: 'border:none;'
+      #tablist
+        = link_to 'Time tracking', time_tracking_index_path
+        = link_to 'Projects', projects_path
+        = link_to 'Settings', edit_user_path(1)
+      #content
+        = yield
+        .clear
+    #footer
+      #footer_content
+        = link_to "Accueil", root_path

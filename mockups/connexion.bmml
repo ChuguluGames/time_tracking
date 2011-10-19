@@ -1,0 +1,23 @@
+<mockup version="1.0" skin="sketch" measuredW="1255" measuredH="575" mockupW="1000" mockupH="520">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="245" y="45" w="1000" h="520" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//timetracking.chugulu.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Canvas" x="334" y="187" w="857" h="331" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="249" w="342" h="254" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>%20%0A%20%0A%20%0AWelcome%20chugulu%20team%20%21%0A%20%0AThis%20is%20the%20time%20tracking%20tool%20for%20Chugulu.%20Please%20connect%20with%20your%20google%20account%20%3A%20name@chugulu.com%0A%20%0AHave%20a%20good%20time%20tracking%20time</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Button" x="384" y="249" w="374" h="206" measuredW="198" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>time_tracking_empty%26bm%3Btime_tracking_empty.bmml%26bm%3Btime_tracking_empty.bmml%26bm%3Btime_tracking_empty.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22139%2C204%2C513%2C410%22%20href%3D%22time_tracking_empty.bmml%22%20alt%3D%22time_tracking_empty%22%20id%3D%22112%22/%3E</map>
+        <text>Click%20to%20connect%20with%20google</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
