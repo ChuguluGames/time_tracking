@@ -3,6 +3,6 @@
     = render partial: 'task_box', locals: {data: {name: 'Enter your task\'s name here', project: 'SAS'}}
   #old_tasks_list
     %table
-      = render partial: 'task', collection: [{name: 'Design', project: 'Time Tracking', duration: 3213}, {name: 'Drool', project: 'Spot', duration: 32133}, {name: 'Edit content', project: 'SAS', duration: 33}]
+      = render partial: 'task', collection: [{name: 'Design', project: 'Time Tracking', duration: '10:30 min'}, {name: 'Drool', project: 'Spot', duration: '4 sec'}, {name: 'Edit content', project: 'SAS', duration: '02:33:12'}, {name: 'Test time format', project: 'Test', duration: '02:33:122'}]
   #edit_task_box{style: 'display:none;'}
     = render partial: 'task_box'

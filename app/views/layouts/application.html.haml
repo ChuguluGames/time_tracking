@@ -2,8 +2,8 @@
 %html
   %head
     %title= content_for?(:title) ? yield(:title) : 'Time tracking'
-    = stylesheet_link_tag "application"
-    = javascript_include_tag "application"
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application', 'date.js'
     = yield(:head)
   %body
     #main
@@ -18,4 +18,4 @@
         .clear
     #footer
       #footer_content
-        = link_to "Accueil", root_path
+        = link_to 'Accueil', root_path
