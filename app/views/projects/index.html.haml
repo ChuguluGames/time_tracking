@@ -12,7 +12,7 @@
         %th= 'Phase'
         %th= 'Actions'
       - @projects.each_with_index do |project, i|
-        %tr{class: (i%2 == 0 ? 'light' : 'dark')}
+        %tr{class: (i%2 == 0 ? 'dark' : 'light')}
           %td.title= project[:title]
           %td.client= project[:client]
           %td.type= project[:type]

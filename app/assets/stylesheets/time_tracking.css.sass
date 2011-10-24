@@ -1,6 +1,6 @@
 #time_tracking
-  #new_task_box
-    background: lightgreen
+  #new_task_box, .edit_box
+    background: lightseagreen
     height: 100px
 
     .first_line
@@ -15,18 +15,20 @@
       #duration
         margin-left: 30px
 
-      #start_button
+      .start_button
         display: inline-block
-        padding: 15px 70px
+        width: 200px
+        padding: 15px 0
+        text-align: center
         background: lightblue
         margin: 5px 0 0 5px
         margin-left: 45px
         -webkit-border-radius: 10px
         -moz-border-radius: 10px
         font-size: 20px
+      .start_button.started
+        background: indianred
 
-      #start_button:hover
-        background: antiquewhite
 
     .second_line
       margin-top: 2px
@@ -47,3 +49,7 @@
       .task
         font-size: 14px
         border-bottom: thick
+
+  .edit_box
+    background: none
+    width: 100%

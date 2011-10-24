@@ -1,0 +1,28 @@
+#settings
+  %h1= 'Settings'
+  #profile
+    %h2= 'Profile'
+    = form_tag('/', { multipart: true } ) do
+      %p
+        = label_tag 'old_password'
+        = password_field_tag 'old_password'
+      %p
+        = label_tag 'new_password'
+        = password_field_tag 'new_password'
+      %p
+        = label_tag 'confirmation_password'
+        = password_field_tag 'confirmation_password'
+      %p
+        = label_tag 'avatar'
+        = file_field_tag 'avatar'
+  #time
+    %h2= 'Time information'
+    %p
+      = label_tag 'time_zone'
+      = password_field_tag 'time_zone'
+    %p
+      = label_tag 'date_format'
+      = password_field_tag 'date_format'
+    %p
+      = label_tag 'time_format'
+      = password_field_tag 'time_format'

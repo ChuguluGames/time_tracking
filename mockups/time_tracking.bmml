@@ -109,7 +109,7 @@
         <text>Export</text>
       </controlProperties>
     </control>
-    <control controlID="80" controlTypeID="com.balsamiq.mockups::Canvas" x="364" y="136" w="851" h="98" measuredW="100" measuredH="70" zOrder="24" locked="true" isInGroup="-1"/>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Canvas" x="364" y="136" w="851" h="98" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1"/>
     <control controlID="81" controlTypeID="com.balsamiq.mockups::TextInput" x="370" y="149" w="644" h="-1" measuredW="39" measuredH="27" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Task</text>

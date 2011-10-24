@@ -1,0 +1,12 @@
+- data = {} unless data
+= form_tag('javascript:void(0)') do
+  .first_line
+    = text_field_tag 'name', data[:name], size: 50
+    = text_field_tag 'duration', data[:duration], size: 10
+    %span.start_button= 'Start'
+  .second_line
+    = text_field_tag 'project', data[:project], size: 30
+    = label_tag 'begin_at', 'Begin to'
+    = text_field_tag 'begin_at', data[:begin_to], size: 10
+    = label_tag 'end_at', 'from'
+    = text_field_tag 'end_at', data[:end_to], size: 10

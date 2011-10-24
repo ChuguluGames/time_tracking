@@ -1,17 +1,8 @@
 #time_tracking
   #new_task_box
-    = form_tag('/') do
-      .first_line
-        = text_field_tag 'name', 'Enter your task\'s name here', size: 50
-        = text_field_tag 'duration', '', size: 10
-        %span#start_button= 'Start'
-      .second_line
-        = text_field_tag 'project', 'SAS', size: 30
-        = label_tag 'begin_at', 'Begin to'
-        = text_field_tag 'begin_at', '', size: 10
-        = label_tag 'end_at', 'from'
-        = text_field_tag 'end_at', '', size: 10
+    = render partial: 'task_box', locals: {data: {name: 'Enter your task\'s name here', project: 'SAS'}}
   #old_tasks_list
     %table
       = render partial: 'task', collection: [{name: 'Design', project: 'Time Tracking', duration: 3213}, {name: 'Drool', project: 'Spot', duration: 32133}, {name: 'Edit content', project: 'SAS', duration: 33}]
   #edit_task_box{style: 'display:none;'}
+    = render partial: 'task_box'
